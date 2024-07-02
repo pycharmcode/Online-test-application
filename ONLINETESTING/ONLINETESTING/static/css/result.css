@@ -1,0 +1,47 @@
+
+#ravi
+{
+    text-align: center;
+    border-style: solid;
+    width: 20%;
+    padding: 5ch;
+    position: relative;
+    left: 60ch;
+    top: 1ch;
+    background-color:skyblue;
+}
+.row
+{
+    padding:2ch;
+}
+.good
+{
+    padding: 0.2ch;
+}
+#test
+{
+    text-align: center;
+    border-style: solid;
+    background-color: blue;
+    padding: 2ch;
+    border-radius: 3ch;
+    display: inline;
+    position: relative;
+    left: 73ch;
+    top: 2cm;
+}
+
+#tree
+{
+    color: red;
+    font-weight: bold;
+}
+#body
+{
+    background-image: url('d1.png');
+}
+
+#summer
+{
+    border-style: solid;
+}

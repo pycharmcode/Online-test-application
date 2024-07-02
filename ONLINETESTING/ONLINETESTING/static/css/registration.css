@@ -1,0 +1,58 @@
+.user
+{
+    color:black;
+}
+#body
+{
+    background-image: url("pic1.jpeg");
+}
+
+#sub
+{
+    color: aliceblue;
+    background-color: blue;
+    padding: 0.8ch;
+}
+#form
+{
+    margin: auto;
+}
+#container
+{
+    background-image:url("h3.png");
+    background-color: aquamarine;
+    border-style: solid;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+
+}
+.input
+{
+    padding: 0.1cm;
+    display: block;
+    width: 150%
+}
+#table
+{
+  
+  position: relative;
+  top: 0.5cm;
+  left: 0.4cm;
+}
+.span
+{
+    color: brown;
+    position: relative;
+    left: 13ch;
+    display: block;
+}
+#header
+{
+    color:yellow;
+    text-shadow: 5px 5px 2px red;
+}

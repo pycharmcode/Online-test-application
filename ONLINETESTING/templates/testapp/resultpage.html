@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESULT</title>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+</head>
+<body id="body">
+    {% if marks >= 3 %}
+       <h1 style="text-align: center;"> congrats you have got {{marks}} marks out of 5</h1>
+       
+    {% else %}
+    <h1 style="text-align: center;"> Oops you have got only {{marks}} out of 5..</h1>
+    <h2 style="text-align:center;">you need to work hard</h2>
+    {% endif %} 
+     <div id="ravi">
+         <table id="table">
+             <tr class="row">
+                 <td class="good">
+                    <h3> ATTEMPT: </h3>
+                 </td>
+                 <td class="good">
+                     <h3>5</h3>
+                 </td>
+            </tr>
+            <tr class="row">
+                 <td class="good">
+                     <h3>RIGHT:</h3>
+                 </td>
+                 <td class="good">
+                     <h3>{{marks}}</h3>
+                 </td>
+            </tr class="row">
+                 <td class="good">
+                     <h3>WRONG:</h3>
+                 </td>
+                 <td class="good">
+                     <h3>{{number}}</h3>
+                 </td>
+             </tr>
+         </table>
+     </div>
+       <h2></h2>
+      <div id="test"> <a id="tree" href="http://localhost:8000/testapp/testpaper/"> AGAIN TEST</a> </div> 
+              <h1> <a style="color:black" href="http://localhost:8000/testapp/loginpage/">EXIT</a> </h1>
+</body>
+</html>

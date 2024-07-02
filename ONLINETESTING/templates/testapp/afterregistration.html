@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/afterregistration.css' %}">
+</head>
+<body id="body">
+    <div id="header">
+      <h1  style="text-align: center; color:black;">Dear,  {{username}} your registration is succeffully submited.</h1>
+      <h2 id="header2" style="text-align: center;">you can login now</h2>
+    </div>
+    <div id="table">
+       <table>
+           <tr>
+               <td class="ravi">
+                   FULLNAME:
+               </td>
+               <td class="ravi">
+                   {{fullname}}
+               </td>
+           </tr>
+           <tr>
+               <td class="ravi">
+                   CONTACT NO:
+               </td>
+               <td class="ravi">
+                   {{contact}}
+               </td>
+           </tr>
+           <tr>
+               <td class="ravi">
+                   EMAIL ID:
+               </td>
+               <td class="ravi">
+                   {{email}}
+               </td>
+           </tr>
+           <tr>
+               <td class="ravi">
+                   ADDRESS:
+               </td>
+               <td class="ravi">
+                   {{address}}
+               </td>
+           </tr>
+       </table>
+    </div>
+           <br>
+           <br>
+           <br>
+           <br><br>
+           <div id="loginn">
+            <a style="text-align: center;" id="loggin" href="http://localhost:8000/testapp/loginpage"> login</a>
+            </div>
+    
+</body>
+</html>

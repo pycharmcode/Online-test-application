@@ -1,0 +1,43 @@
+#form
+{
+    
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 20ch;
+    left: 50ch;
+    background-image: url("pic6.jpeg");
+}
+#table
+{
+    
+    padding: 5ch;
+}
+.ravi
+{
+    padding: 1.5ch;
+    color: aliceblue;
+}
+#register
+{
+    border-style: solid;
+    display: inline;
+    padding: 1.5ch;
+    border-radius: 0.3cm;
+    background-color: chartreuse;
+}
+#login
+{
+    margin: 0.5cm;
+    padding: 2ch;
+    border-radius: 0.3cm;
+}
+#body
+{
+    background-image: url("pic1.jpeg");
+}
+#header
+{
+    color:yellow;
+    text-shadow: 5px 5px 2px red;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <script src="{% static 'js/registration.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/registration.css' %}">
+</head>
+<body id="body">
+    <h1 id="header" style="text-align: center;">MOGAMBOO TESTING</h1>
+    <div id="container">
+        <form id="form" action="http://localhost:8000/testapp/addregistration/" method="POST" onsubmit="return validation()">
+           <div id="table"> 
+       <table id="table">
+            <div class="ravi">
+                <tr class="row">
+                    <td class="user">
+                        USERNAME:
+                    </td>
+                    <td>
+                        <input  class="input" id="username" type="text" name="username">
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr>
+            </div>
+              <div class="ravi">  
+                <tr class="row">
+                    <td class="user">
+                        PASSWORD:
+                    </td>
+                    <td>
+                        <input class="input" id="password" type="password" name='password'>
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr>
+            </div>
+                
+                <tr class="row">
+                    <td class="user">
+                        CONFIRM PASSWORD:
+                    </td>
+                    <td>
+                        <input class="input" type="password" name="cpassword" id="cpassword">
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                 
+                <tr class="row">
+                    <td
+                    class="user">
+                        FULLNAME:
+                    </td>
+                    <td>
+                        <input class="input" id="fullname" type="text" name='fullname'>
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                 
+                <tr class="row">       
+                    <td class="user">
+                        CONTACT NO.:
+                    </td>
+                    <td>
+                        <input class="input" id="phone" type="number" name="contact">
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td> 
+                </tr>
+                
+                <tr class="row">                           
+                                  
+                    <td class="user">
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input class="input" id="email" type="text" name="email">
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                
+                <tr class="row">
+                    <td class="user">
+                        ADDRESS:
+                    </td>
+                    <td>
+                        <input class="input" id="address" type="text" name="address">
+                    </td>
+                    <td class="span">
+                        <span class="error"></span>
+                    </td>
+                </tr> 
+                
+                <tr class="row">
+                    <td class="input" id="submit">
+                        <input id="sub" type="submit" value="register">
+                    </td>
+                </tr> 
+            </table>
+            </div>
+        </form>
+    </div>  
+    {{warning}}
+    
+</body>
+</html>

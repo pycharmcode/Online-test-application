@@ -1,0 +1,23 @@
+.que
+{
+    font-weight: bold;
+}
+.ravi
+{
+    position: relative;
+    bottom: 3ch;
+    padding: 1ch;
+}
+#body
+{
+    background-color:wheat;
+    
+}
+
+#sub
+{
+    padding: 1ch;
+    border-radius: 1ch;
+    background-color: blue;
+    color: aliceblue;
+}

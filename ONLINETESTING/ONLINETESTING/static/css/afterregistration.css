@@ -1,0 +1,44 @@
+
+#table
+{
+    border-style: solid;
+    width: 30%;
+    position: relative;
+    top: 1.5cm;
+    left: 9cm;
+    padding: 2ch;
+    background-color: antiquewhite;
+}
+.ravi
+{
+    padding: 1ch;
+}
+#loginn
+{
+    
+   width: 5%;
+   position: relative;
+   left: 63ch;
+   bottom: 3ch;
+   border-style: solid;
+   display: inline-block;
+   padding: 0.2cm;
+   background-color: blue;
+   border-radius: 5ch;
+   
+}
+#loggin
+{
+    color: aliceblue;
+    position: relative;
+    left: 2ch;
+}
+#header2
+{
+    position: relative;
+    right: 13ch;
+}
+#body
+{
+    background-image: url("d1.png");
+}

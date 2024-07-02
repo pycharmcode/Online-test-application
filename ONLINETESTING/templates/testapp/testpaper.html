@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTPAPER</title>
+    <link rel="stylesheet" href="{% static 'css/testpaper.css' %}">
+</head>
+<body id="body">
+    <form action="http://localhost:8000/testapp/answercheck/" method="POST">
+        <h2 style="text-align: center; text-decoration: underline;">It is Mandatory to Attempt all the Questions</h2>
+
+        <div class="ravi">
+        <table>
+            <div id="table">
+                <tr>
+                   <td class="que">
+                      <h3>1. {{ques.0.question}}</h3>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="0option" value="{{ques.0.optiona}}">{{ques.0.optiona}}
+                    </td>
+                </tr>
+            
+            <tr>
+                <td>
+                    <input type="radio" name="0option" value="{{ques.0.optionb}}">{{ques.0.optionb}}
+                </td>
+            </tr>
+        
+        <tr>
+            <td>
+                <input type="radio" name="0option" value="{{ques.0.optionc}}">{{ques.0.optionc}}
+            </td>
+        </tr>
+    
+    <tr>
+        <td>
+            <input type="radio" name="0option" value="{{ques.0.optiond}}">{{ques.0.optiond}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="hidden" name="0answer" value="{{ques.0.answer}}">
+        </td>
+    </tr>
+     </div>
+     <br>
+     <br>
+   </table>
+        </div>
+
+        <hr>
+       
+     <div class="ravi">
+   <table>    
+    <tr>
+       <td class="que">
+         <h3>2. {{ques.1.question}}</h3>
+       </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="1option" value="{{ques.1.optiona}}">{{ques.1.optiona}}
+        </td>
+    </tr>
+
+<tr>
+    <td>
+        <input type="radio" name="1option" value="{{ques.1.optionb}}">{{ques.1.optionb}}
+    </td>
+</tr>
+
+<tr>
+<td>
+    <input type="radio" name="1option" value="{{ques.1.optionc}}">{{ques.1.optionc}}
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="radio" name="1option" value="{{ques.1.optiond}}">{{ques.1.optiond}}
+</td>
+</tr>
+<tr>
+<td>
+<input type="hidden" name="1answer" value="{{ques.1.answer}}">
+</td>
+</tr>
+<br>
+<br>
+</table>
+     </div>
+     <hr>
+ 
+<div class="ravi">
+<table>
+            
+    <tr>
+       <td class="que">
+          <h3>3. {{ques.2.question}}</h3>
+       </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="2option" value="{{ques.2.optiona}}">{{ques.2.optiona}}
+        </td>
+    </tr>
+
+<tr>
+    <td>
+        <input type="radio" name="2option" value="{{ques.2.optionb}}">{{ques.2.optionb}}
+    </td>
+</tr>
+
+<tr>
+<td>
+    <input type="radio" name="2option" value="{{ques.2.optionc}}">{{ques.2.optionc}}
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="radio" name="2option" value="{{ques.2.optiond}}">{{ques.2.optiond}}
+</td>
+</tr>
+<tr>
+<td>
+<input type="hidden" name="2answer" value="{{ques.2.answer}}">
+</td>
+</tr>
+<br>
+<br>
+</table>
+</div>
+<hr>
+      
+<div class="ravi">
+<table>
+            
+    <tr>
+       <td class="que">
+          <h3>4. {{ques.3.question}}</h3>
+       </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="3option" value="{{ques.3.optiona}}">{{ques.3.optiona}}
+        </td>
+    </tr>
+
+<tr>
+    <td>
+        <input type="radio" name="3option" value="{{ques.3.optionb}}">{{ques.3.optionb}}
+    </td>
+</tr>
+
+<tr>
+<td>
+    <input type="radio" name="3option" value="{{ques.3.optionc}}">{{ques.3.optionc}}
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="radio" name="3option" value="{{ques.3.optiond}}">{{ques.3.optiond}}
+</td>
+</tr>
+<tr>
+<td>
+<input type="hidden" name="3answer" value="{{ques.3.answer}}">
+</td>
+</tr>
+<br>
+<br>
+</table>
+</div>
+<hr style="color: red;">
+
+<div class="ravi">
+<table>     
+    <tr>
+       <td class="que">
+          <h3> 5. {{ques.4.question}}</h3>
+       </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="4option" value="{{ques.4.optiona}}">{{ques.4.optiona}}
+        </td>
+    </tr>
+
+<tr>
+    <td>
+        <input type="radio" name="4option" value="{{ques.4.optionb}}">{{ques.4.optionb}}
+    </td>
+</tr>
+
+<tr>
+<td>
+    <input type="radio" name="4option" value="{{ques.4.optionc}}">{{ques.4.optionc}}
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="radio" name="4option" value="{{ques.4.optiond}}">{{ques.4.optiond}}
+</td>
+</tr>
+<tr>
+<td>
+<input type="hidden" name="4answer" value="{{ques.4.answer}}">
+</td>
+</tr>
+ </div>
+<br>
+<br>
+</table>
+</div>
+<hr>
+    
+     <input id="sub" type="submit" value="submit test">
+
+     
+ </form>
+ <br><br>
+</body>
+</html>
